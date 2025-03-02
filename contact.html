@@ -40,16 +40,22 @@ body {
             <div class="input-box">
                 <input type="password" placeholder="password " required>
             </div>
+            <div class="text-message" style="display: flex;">
+                <label for="message">Message: </label><br><br>
+                <textarea style="resize: none;border: 3px solid rgba(255, 255, 255, 0.2);border-radius: 5px; background:transparent;color: wheat;text-align: left;" id="message"       rows="4" cols="40" >Type your message...
+                </textarea>
+            </div>
             <!-- A select button -->
             <div class="input-box">
-                <label for="level">Choose a Level</label>
-                <select name="level" style="border-radius: 5px;">
+                <label for="level">Choose a Level:</label>
+                <select name="level" style="border-radius: 5px; border: 3px solid rgba(255, 255, 255, 0.2);color: wheat;background: transparent;">
                     <option value="Low"></option>
                     <option value="Low">Low</option>
                     <option value="Medium">Medium</option>
                     <option value="High">High</option>
                 </select>
             </div>
+            
 
             <!-- A container for a link and checkbox -->
             <div class="remember-forgot">
