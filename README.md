@@ -3,7 +3,6 @@
 - [Home](#Home)
 - [About](#About)
 - [Contact](#Contact)
-- [Project Overview](#Home)
 - [Setup](#Setup)
 ### Home
 ---
